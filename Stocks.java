@@ -59,5 +59,6 @@ public class Stocks {
 		System.out.println("The Day at Max Profit "+hm.get("max"));
 		System.out.println("The Day at Max Loss "+hm.get("min"));
 		System.out.println("The Day at No loss No profit "+hm.get("equal"));
+		sc.close();
 	}
 }
